@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz Game</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" defer></script>
+</head>
+<body>
+    <div class="timer-container" style="display: none;">
+        <div class="timer">Time</div>
+    </div>
+
+    <div class="background-container">
+        <div class="start-container">
+            <div class="math-quiz">Math Quiz</div>
+            <button class="start-btn">Play</button>
+        </div>
+
+        <div class="question-container">
+            <div class="quiz-container" style="display: none;">
+                <div class="question"></div>
+                <div class="answers">
+                    <div class="answer"></div>
+                    <div class="answer"></div>
+                    <div class="answer"></div>
+                    <div class="answer"></div>
+                    <div class="answer"></div>
+                </div>
+            </div>
+
+            <div class="statistics-container" style="display: none;">
+                <div class="result-message"></div>
+                <button class="restart-btn">Restart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
